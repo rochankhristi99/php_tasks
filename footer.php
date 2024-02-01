@@ -2,7 +2,10 @@
 <html>
 
 <head>
-<title>Fix My Cycle</title>
+    <title>Fix My Cycle</title>
+    <style>
+
+    </style>
 </head>
 
 <body>
@@ -48,6 +51,20 @@
                 <hr>
 
                 <span class="text-white"><em>@2024 FixMyCycle. All Rights Reserved.</em></span>
+<br><br>
+
+                <?php
+
+                $file_path = $_SERVER['SCRIPT_FILENAME'];
+
+                $FileName = basename($file_path);
+                $lastModifiTime = filemtime($file_path);
+
+                $lastModifiTime2 = date("F d, Y g:i A", $lastModifiTime);
+
+                echo $FileName . " was last modified on " . $lastModifiTime2;
+
+                ?>
             </center>
 
         </div>
