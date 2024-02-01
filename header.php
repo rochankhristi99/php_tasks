@@ -2,7 +2,9 @@
 <html>
 
 <head>
-    <title>Fix My Cycle</title>
+    <title>
+        
+    <?php echo $title; ?> </title>
     <link rel="icon"  href="img/logo_fav.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">

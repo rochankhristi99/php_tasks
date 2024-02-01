@@ -1,9 +1,12 @@
-    <?php include 'header.php'; ?>
+    <?php 
+     $title = "Exercise 2: Create universal header, footer, or sidebar";
+   
+    include 'header.php'; ?>
 
     <!--Main Content Start-->
 
     <div class="bg_dark  text-center ">
-        <h1 class="text-white fw-bolder">ABOUT US</h1>
+        <h1 class="text-white fw-bolder">EXERCISE 2</h1>
     </div>
 
     <div class="body_sec pb-5">

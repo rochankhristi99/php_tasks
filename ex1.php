@@ -1,4 +1,9 @@
-    <?php include 'header.php'; ?>
+    <?php 
+    $title = "Exercise 1: Getting Started with PHP";
+    include 'header.php'; ?>
+<div class="bg_dark  text-center ">
+    <h1 class="text-white fw-bolder">EXERCISE 1</h1>
+</div>
 
     <div class="body_sec pb-5">
 
