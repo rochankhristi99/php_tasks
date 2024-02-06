@@ -13,6 +13,9 @@ body {
     color: #0B0B0B;
 }
 
+.webkit-center{
+text-align: -webkit-center;
+}
 /* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     --bs-gutter-x: none;
 } */
@@ -37,7 +40,7 @@ body {
 
 .navbar-brand {
     padding-left: 13%;
-    padding-right: 10%;
+    /* padding-right: 10%; */
 }
 
 .nav-logo {
@@ -298,7 +301,7 @@ body {
 
 /*Footer START*/
 
-.table {
+.table2 {
     width: unset;
     --bs-table-color: none;
     --bs-table-bg: none;
@@ -372,12 +375,12 @@ hr {
         padding: 10px;
     }
 
-    .table tr {
+    .table2 tr {
         display: block;
         margin-bottom: 15px;
     }
 
-    .table td {
+    .table2 td {
         display: block;
         width: 100%;
         box-sizing: border-box;

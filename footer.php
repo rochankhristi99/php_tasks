@@ -14,7 +14,7 @@
         <div class="bg_dark px-5 py-5 text-white">
 
             <h3 class="fw-bolder mb-5"> CONTACT US</h3>
-            <table class="table ">
+            <table class="table2">
                 <tr>
                     <td>
                         Reach Us At
@@ -70,7 +70,7 @@
         </div>
     </footer>
 
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="../php_tasks/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
