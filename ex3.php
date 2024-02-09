@@ -27,14 +27,7 @@ include 'header.php';
             <label class="form-label">Last Name</label>
             <input type="text" class="form-control" name="lname">
         </div>
-        <div class="mb-3">
-            <label class="form-label">DOB</label>
-            <input type="date" class="form-control" name="date">
-        </div>
-        <div class="mb-3">
-            <label class="form-label">Pick Color</label>
-            <input type="color" class="form-control" name="clr">
-        </div>
+      
 
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
